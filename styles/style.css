@@ -1,0 +1,58 @@
+h1 {
+    color: blue;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+} 
+
+table {
+  margin-top: 10px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td, th {
+  border: 1px solid #0000ff;
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(41, 44, 202, 0.719);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(25, 218, 73, 0.863);
+}
+
+header {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  color: rgba(25, 25, 219, 0.883);
+  font-weight: bold;
+  background-color: rgba(72, 235, 22, 0.911); 
+  margin-bottom: 20px; 
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  font-size: large;
+  width: 100%;
+  text-align: center;
+  color: rgba(25, 25, 219, 0.883);
+  font-weight: bold;
+  background-color: rgba(72, 235, 22, 0.911);
+  margin-top: 50px;
+}
+
+.playerIcon {
+  width: 35px;
+  border-radius: 8px;
+}
