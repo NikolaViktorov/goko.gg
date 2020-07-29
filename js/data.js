@@ -1,4 +1,4 @@
-const api = 'RGAPI-c0558a0f-c293-464e-8589-cd3a37d78dd5';
+const api = 'insert dev api here';
 
 
 export async function getUserBySummonerName(name) {
