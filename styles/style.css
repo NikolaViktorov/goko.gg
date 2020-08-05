@@ -20,6 +20,10 @@ td, th {
   padding: 16px;
 }
 
+td {
+  max-width: 50px;
+}
+
 tr:nth-child(even) {
   background-color: rgba(41, 44, 202, 0.719);
 }
@@ -55,4 +59,12 @@ footer {
 .playerIcon {
   width: 35px;
   border-radius: 8px;
+}
+
+.Win {
+  background-color: rgb(21, 170, 21);
+}
+
+.Fail {
+  background-color: rgb(233, 39, 39);
 }
